@@ -18,7 +18,7 @@ Uma Aplicação simples - CRUD de Produtos (Create, Read, Update, Delete), desen
 ### Clonando o repositório
 
 ```
-git clone https://github.com/masilvaarcs/crudProdutosAngular.git
+git clone https://github.com/masilvaarcs/crud-produtos-by-marcos.git
 ```
 
 ### Executando backend e frontend
@@ -28,7 +28,7 @@ Para facilitar o entendimento e seguir o mesmo esquema utilizado no Curso, a exe
 ```bash
 # Abrir uma nova instância do terminal
 # Go to server folder
-$ cd crudProdutosAngular
+$ cd crud-produtos-by-marcos
 
 # Install Dependencies
 $ npm install
