@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+ ULTRA Max mega super",
+      "price": "8500"
+    },
+    {
+      "name": "Veio do Formulário",
+      "price": "9.99",
+      "id": 4
+    },
+    {
+      "name": "Geladeira",
+      "price": "1890.44",
+      "id": 5
+    },
+    {
+      "name": "Notebook",
+      "price": "3567.87",
+      "id": 6
+    },
+    {
+      "name": "Lapis Preto para Desenho",
+      "price": "7.80",
+      "id": 7
+    },
+    {
+      "name": "Testes de backend parado",
+      "price": "9.99",
+      "id": 8
+    }
+  ]
+}

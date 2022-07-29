@@ -1,0 +1,64 @@
+<!-- <mat-card>
+  <p-card header="Novo Produto"  [style]="{'width': '25rem', 'margin-bottom': '2em', 'height': '4rem'}" ></p-card>
+  <form>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome"
+        [(ngModel)]="product.name"
+        name="name"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Preço (R$)"
+        [(ngModel)]="product.price"
+        name="price"
+      />
+    </mat-form-field>
+  </form>
+
+  <button
+    pButton
+    type="button"
+    label="Salvar"
+    class="p-button-raised p-button-rounded p-button-sm"
+    (click)="createProduct()"
+  ></button>
+  <button
+    pButton
+    type="button"
+    label="Cancelar"
+    class="p-button-raised p-button-rounded p-button-sm"
+    (click)="cancel()"
+  ></button>
+</mat-card> -->
+
+
+<p-card>
+  <p-card header="Produto (Layout by Marcos)" [style]="{'width': '25rem', 'margin-bottom': '2em', 'height': '4rem'}">
+  </p-card>
+  <div class="grid p-fluid">
+    <div class="col-12 md:col-4">
+      <div class="p-inputgroup">
+        <span class="p-inputgroup-addon"><i class="pi pi-book"></i></span>
+        <input type="text" pInputText [(ngModel)]="product.name" placeholder="Nome do Produto">
+      </div>
+    </div>
+    <div class="col-12 md:col-4">
+      <div class="p-inputgroup">
+        <span class="p-inputgroup-addon">$</span>
+        <p-inputNumber [(ngModel)]="product.price" inputId="inputproductprice" mode="decimal" locale="pt-BR">
+          <!-- [minFractionDigits]="2" -->
+        </p-inputNumber>
+        <span class="p-inputgroup-addon">.00</span>
+      </div>
+    </div>
+  </div>
+
+  <button pButton type="button" label="Salvar" class="p-button-raised p-button-rounded p-button-sm"
+    (click)="createProduct()"></button>
+  <button pButton type="button" label="Cancelar" class="p-button-raised p-button-rounded p-button-sm"
+    (click)="cancel()"></button>
+</p-card>
